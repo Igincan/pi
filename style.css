@@ -1,0 +1,23 @@
+body {
+    height: 100%;
+}
+#ctx {
+    position: absolute;
+    left: calc(50% - 250px);
+    top: calc(50% - 250px);
+    box-shadow: 1px 1px 4px grey;
+}
+#stats {
+    position: absolute;
+    left: calc(50% + 270px);
+    top: calc(50% - 57px)
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    padding: 4px;
+}
+#inside {
+    width: 200px;
+}
